@@ -133,9 +133,22 @@ aside > div {
   margin-bottom: 6px;
 }
 
+.contact > span > a {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(99, 99, 99);
+  font-weight: 500;
+}
+
 .contact > span > i {
   color: black;
   margin-right: 14px;
+}
+
+.contact > span > a > i {
+  color: black;
+  margin-right: 10px;
 }
 
 .skills > span {
